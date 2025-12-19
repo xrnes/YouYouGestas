@@ -1,0 +1,29 @@
+sw_volume: 88
+audio_device_state:1:PulseAudio Output
+audio_device_state:1:Visualizer feed
+state: stop
+current: 0
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Artists/TOOL/2000 - Salival/03. TOOL - Pushit [Live].mp3
+1:Artists/TOOL/2000 - Salival/02. TOOL - Part Of Me [Live].mp3
+2:Artists/TOOL/2000 - Salival/01. TOOL - Third Eye [Live].mp3
+3:Artists/TOOL/2000 - Salival/08. TOOL - Maynard's Dick.mp3
+4:Artists/TOOL/2000 - Salival/06. TOOL - Merkaba [Live].mp3
+5:Artists/TOOL/2019 - Fear Inoculum/06. TOOL - Chocolate Chip Trip.mp3
+6:Artists/TOOL/1996 - Ænima/04. TOOL - Useful Idiot.flac
+7:Artists/TOOL/1991 - 72826/05. TOOL - Sober (demo).mp3
+8:Artists/TOOL/1991 - 72826/06. TOOL - Jerk-Off (demo).mp3
+9:Artists/TOOL/2001 - Lateralus/11. TOOL - Reflection.flac
+10:Artists/Eminem/Albums & EPs/1997 - Slim Shady EP/03. Eminem - If I Had....mp3
+11:Artists/Men At Work/03. Men At Work - Down Under.mp3
+12:Artists/Mac Miller/Macadelic/10. Mac Miller - 1 Threw 8.mp3
+13:Artists/Eminem/Albums & EPs/2004 - Encore/01. Eminem - Curtains Up.flac
+playlist_end
