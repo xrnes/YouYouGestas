@@ -1,0 +1,146 @@
+* {
+    border: none;
+    min-height: 0;
+    font-family: "JetBrains Nerd Font Mono";
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0;
+}
+
+window#waybar {
+    background: #070d0c;
+    border: 2px solid #ac0415;
+    border-radius: 4px;
+}
+
+tooltip {
+    background-color: #302C3A;
+    border: 2px solid #ac0415;
+    font-size: 2px;
+}
+
+tooltip label {
+	margin: 8px;
+}
+
+#custom-timeweather,
+#tray,
+#cpu,
+#memory,
+#battery,
+#network,
+#pulseaudio,
+#mpd,
+#language {
+    margin: 6px 6px 6px 0px;
+    padding: 2px 8px;
+	border-radius: 4px;
+}
+
+#workspaces {
+    margin: 6px 0px 6px 6px;
+    border-radius: 4px;
+}
+
+#workspaces button {
+    all: initial;
+    min-width: 0;
+    box-shadow: inset 0 -3px transparent;
+    padding: 2px 4px;
+    color: #f2392c;
+    background-color: #070d0c;
+    border: 2px solid #ac0415;
+    border-radius: 4px;
+    margin-right: 2px;
+}
+
+#workspaces button.active {
+    color: #000000;
+    background-color: #f2392c;
+}
+
+#workspaces button.urgent {
+    background-color: #a095f3;
+	color: #000000;
+	border: 2px solid #a095f3;
+}
+
+#custom-timeweather {
+    background-color: #120f19;  
+    border: 2px solid #f2392c;
+    color: #f2392c;
+}
+
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#battery,
+#tray,
+#language {
+    background-color: #120F19;
+    border: 2px solid #f2392c;
+    color: #f2392c;
+}
+
+#network {
+	min-width: 100px;
+}
+
+#cpu,
+#memory,
+#battery,
+#pulseaudio {
+	min-width: 60px;
+}
+
+#cpu.critical,
+#memory.critical {
+    color: #a095f3;
+    border: 2px solid #a095f3;
+}
+
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+    color: #a095f3;
+    border: 2px solid #a095f3;
+}
+
+#custom-launcher {
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 5px;
+	transition: none;
+	color: #f2392c;
+}
+
+#custom-control {
+	font-size: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	transition: none;
+	color: #f2392c;
+}
+
+#language {
+	min-width: 20px;
+}
+
+#mpd {
+        border: 2px solid #f2392c;
+}
+
+#mpd.playing, #custom-mpd.playing {
+   
+    color: #f2392c;
+}
+
+#mpd.paused, #custom-mpd.paused {
+    
+    color: #f2392c;
+}
+
+#mpd.stopped, #custom-mpd.stopped {
+    color: #f2392c;
+}
