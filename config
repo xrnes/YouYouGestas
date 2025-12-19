@@ -1,0 +1,163 @@
+# ~/.config/ncmpcpp/config
+
+# ===== BASIC SETTINGS =====
+ncmpcpp_directory = ~/.config/ncmpcpp
+lyrics_directory = ~/.config/ncmpcpp/lyrics
+mpd_host = localhost
+mpd_port = 6600
+
+# ===== VISUAL SETTINGS =====
+# Colors - Genre-focused theme
+
+
+# ===== DISPLAY SETTINGS =====
+user_interface = alternative
+now_playing_prefix = "$3▶$9 "
+now_playing_suffix = "  "
+selected_item_suffix = "  "
+
+# ===== FOLDER/FILE BASED DISPLAY =====
+browser_display_mode = classic
+# Show files as they appear in filesystem
+song_list_format = {$7%f$9}
+song_status_format = $3%g$9  $7%f$9
+song_library_format = {%f}
+alternative_header_first_line_format = $b$1🎵$9  $7%f$9
+alternative_header_second_line_format = $4Genre: $5%g$9  $6|$9  $4Artist: $3%a$9
+
+# ===== BROWSER SETTINGS =====
+browser_sort_mode = type
+browser_playlist_prefix = "$2$9 "
+selected_item_prefix = "$3$9 "
+modified_item_prefix = "$1$9 "
+
+# Display genres with special icon
+def_browser_sort "type"
+def_browser_display "tags: Genre| %D|▶ %f"
+
+# ===== KEY BINDINGS =====
+# Navigation
+def_key "k"
+    scroll_up
+def_key "j"
+    scroll_down
+def_key "h"
+    previous_column
+def_key "l"
+    next_column
+def_key "H"
+    enter_directory
+def_key "L"
+    leave_directory
+
+# Player controls
+def_key " "
+    pause
+def_key ">"
+    next
+def_key "<"
+    previous
+def_key "p"
+    play
+def_key "s"
+    stop
+def_key "+"
+    volume_up
+def_key "-"
+    volume_down
+def_key "="
+    volume_up
+
+# Screens
+def_key "1"
+    show_help
+def_key "2"
+    show_playlist
+def_key "3"
+    show_browser
+def_key "4"
+    show_search_engine
+def_key "5"
+    show_media_library
+def_key "6"
+    show_playlist_editor
+def_key "7"
+    show_tag_editor
+def_key "8"
+    show_outputs
+def_key "9"
+    show_visualizer
+
+# Browser actions
+def_key "r"
+    jump_to_parent_directory
+def_key "R"
+    jump_to_music_directory
+def_key "a"
+    add_selected_items
+def_key "A"
+    add_selected_items_and_play
+def_key "u"
+    update_database
+def_key "g"
+    jump_to_genre
+
+# ===== BROWSER BEHAVIOR =====
+startup_screen = browser
+display_remaining_time = no
+
+# ===== PLAYLIST =====
+playlist_display_mode = classic
+playlist_show_mpd_host = no
+playlist_show_remaining_time = no
+
+# ===== VISUALIZER =====
+visualizer_data_source = /tmp/mpd.fifo
+visualizer_output_name = my_fifo
+visualizer_in_stereo = yes
+visualizer_type = spectrum
+visualizer_look = ▂▄
+visualizer_color = blue, cyan, green
+
+# ===== OTHER =====
+cyclic_scrolling = yes
+mouse_support = yes
+lines_scrolled = 1
+autocenter_mode = yes
+centered_cursor = yes
+statusbar_visibility = yes
+titles_visibility = yes
+header_visibility = yes
+
+ 
+##### General #####
+colors_enabled = yes
+playlist_disable_highlight_delay = 0
+
+##### Main colors #####
+main_window_color = blue
+
+##### Text #####
+header_window_color = blue
+volume_color = green
+state_line_color = red
+statusbar_color = blue
+
+##### Playlist #####
+
+
+##### Current song #####
+song_columns_list_format = "(30)[blue]{t} (7)[blue]{l}"
+
+##### Selected / active items #####
+current_item_prefix = "$(203)▶ "
+
+##### Progress bar #####
+progressbar_color = blue
+progressbar_elapsed_color = blue
+progressbar_look = "━━╸"
+
+
+##### Alternative screen #####
+alternative_ui_separator_color = blue
+
