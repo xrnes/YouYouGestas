@@ -1,0 +1,62 @@
+2025-12-15 18:33:00,771 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 18:33:00,781 - INFO - Connected to MPD
+2025-12-15 18:33:00,781 - INFO - Starting MPD tracker...
+2025-12-15 18:34:22,840 - INFO - Calling MPD disconnect()
+2025-12-15 18:34:22,842 - ERROR - Error in main loop: Connection lost while reading line
+2025-12-15 18:34:27,842 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 18:34:27,844 - INFO - Connected to MPD
+2025-12-15 18:34:33,848 - INFO - Calling MPD disconnect()
+2025-12-15 18:34:33,848 - ERROR - Error in main loop: Connection lost while reading line
+2025-12-15 18:34:38,848 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 18:34:38,850 - INFO - Connected to MPD
+2025-12-15 18:35:32,980 - INFO - Logged: Tool - Useful Idiot
+2025-12-15 18:37:25,081 - INFO - Logged: Tool - Eon Blue Apocalypse
+2025-12-15 18:55:45,795 - INFO - Logged: Tool - Chocolate Chip Trip
+2025-12-15 19:16:06,460 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 19:16:06,462 - INFO - Connected to MPD
+2025-12-15 19:16:06,462 - INFO - Starting MPD tracker...
+2025-12-15 20:12:02,899 - INFO - Logged: Tool - Useful Idiot
+2025-12-15 20:39:28,104 - INFO - Logged: TOOL - Cold and Ugly (demo)
+2025-12-15 20:43:32,327 - INFO - Logged: TOOL - Jerk-Off (demo)
+2025-12-15 21:19:17,394 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 21:19:17,398 - INFO - Connected to MPD
+2025-12-15 21:19:17,398 - INFO - Starting MPD tracker...
+2025-12-15 21:31:06,385 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 21:31:06,388 - INFO - Connected to MPD
+2025-12-15 21:31:06,389 - INFO - Starting MPD tracker...
+2025-12-15 21:32:04,438 - ERROR - Failed to log track: type object 'datetime.datetime' has no attribute 'datetime'
+2025-12-15 21:32:06,005 - INFO - Logged: TOOL - Useful Idiot
+2025-12-15 21:36:36,244 - INFO - Logged: TOOL - Sober (demo)
+2025-12-15 21:36:36,665 - ERROR - Failed to log track: type object 'datetime.datetime' has no attribute 'datetime'
+2025-12-15 21:40:32,865 - ERROR - Failed to log track: type object 'datetime.datetime' has no attribute 'datetime'
+2025-12-15 21:40:34,458 - INFO - Logged: TOOL - Jerk-Off (demo)
+2025-12-15 21:51:41,022 - INFO - Logged: TOOL - Reflection
+2025-12-15 21:51:41,431 - ERROR - Failed to log track: type object 'datetime.datetime' has no attribute 'datetime'
+2025-12-15 22:07:43,742 - INFO - Logged: TOOL - Useful Idiot
+2025-12-15 22:07:44,127 - ERROR - Failed to log track: type object 'datetime.datetime' has no attribute 'datetime'
+2025-12-15 22:09:55,873 - INFO - Logged: TOOL - Useful Idiot
+2025-12-15 22:09:56,242 - ERROR - Failed to log track: type object 'datetime.datetime' has no attribute 'datetime'
+2025-12-15 22:14:17,439 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 22:14:17,443 - INFO - Connected to MPD
+2025-12-15 22:14:17,443 - INFO - Starting MPD tracker...
+2025-12-15 22:19:15,684 - INFO - Logged: TOOL - Sober (demo) at 2025-12-15 22:19:15
+2025-12-15 22:19:53,729 - INFO - Logged: TOOL - Useful Idiot at 2025-12-15 22:19:53
+2025-12-15 22:19:59,356 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 22:19:59,361 - INFO - Connected to MPD
+2025-12-15 22:19:59,361 - INFO - Starting MPD tracker...
+2025-12-15 22:20:43,414 - INFO - Logged: TOOL - Useful Idiot at 2025-12-15 22:20:43
+2025-12-15 22:20:43,784 - INFO - Logged: TOOL - Useful Idiot at 2025-12-15 22:20:43
+2025-12-15 22:26:18,636 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 22:26:18,640 - INFO - Connected to MPD
+2025-12-15 22:26:18,641 - INFO - Starting MPD tracker...
+2025-12-15 22:27:06,359 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 22:27:06,363 - INFO - Connected to MPD
+2025-12-15 22:27:06,363 - INFO - Starting MPD tracker...
+2025-12-15 22:27:40,408 - INFO - Logged: TOOL - Useful Idiot at 2025-12-15 22:27:40
+2025-12-15 22:27:47,674 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-15 22:27:47,680 - INFO - Connected to MPD
+2025-12-15 22:27:47,681 - INFO - Starting MPD tracker...
+2025-12-16 13:40:00,998 - INFO - Calling MPD connect('localhost', 6600, timeout=None)
+2025-12-16 13:40:01,001 - INFO - Connected to MPD
+2025-12-16 13:40:01,001 - INFO - Starting MPD tracker...
+2025-12-16 13:41:23,315 - INFO - Logged: Eminem - Curtains Up at 2025-12-16 13:41:23
